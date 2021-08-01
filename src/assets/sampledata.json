@@ -1,0 +1,82 @@
+[
+    {   
+        "cid":"c1",
+        "coursename": "Responsive Design Course XYZ How to design responsive templates",
+        "author": "Joseph Marie",
+        "isWishlisted": false,
+        "actualprice": 1023,
+        "discountedprice":1023,
+        "tags":["css","scss","mediaquery"],
+        "isAddedInCart":true
+    },
+    {
+        "cid":"c2",
+        "coursename": "Introduction to Angular",
+        "author": "Arokia Lijas",
+        "isWishlisted": true,
+        "actualprice": 965,
+        "discountedprice":563,
+        "tags":["angular-routing","lifecyclehooks","typescript"],
+        "isAddedInCart":false
+    },
+    {
+        "cid":"c3",
+        "coursename": "Introduction to React",
+        "author": "Naveen R",
+        "isWishlisted": false,
+        "actualprice": 563,
+        "discountedprice":563,
+        "tags":["javascript","jsx","redux"],
+        "isAddedInCart":false 
+    },
+    {
+        "cid":"c4",
+        "coursename": "The Complete Guide (incl Hooks, React Router, Redux",
+        "author": "Naveen R",
+        "isWishlisted": false,
+        "actualprice": 1000,
+        "discountedprice":563,
+        "tags":["javascript","jsx","redux"],
+        "isAddedInCart":false 
+    },
+    {
+        "cid":"c5",
+        "coursename": "Build Responsive Websites with HTML5 and CSS",
+        "author": "John",
+        "isWishlisted": true,
+        "actualprice": 563,
+        "discountedprice":263,
+        "tags":["javascript","jsx","redux"],
+        "isAddedInCart":false 
+    },
+    {
+        "cid":"c6",
+        "coursename": "Introduction to React",
+        "author": "Naveen R",
+        "isWishlisted": false,
+        "actualprice": 563,
+        "discountedprice":563,
+        "tags":["javascript","jsx","redux"],
+        "isAddedInCart":false
+    },
+    {
+        "cid":"c7",
+        "coursename": "Introduction to React",
+        "author": "Naveen R",
+        "isWishlisted": true,
+        "actualprice": 563,
+        "discountedprice":563,
+        "tags":["javascript","jsx","redux"],
+        "isAddedInCart":false
+    },
+    {
+        "cid":"c8",
+        "coursename": "Introduction to React",
+        "author": "Naveen R",
+        "isWishlisted": false,
+        "actualprice": 683,
+        "discountedprice":300,
+        "tags":["javascript","jsx","redux"],
+        "isAddedInCart":false 
+    }
+]

@@ -1,0 +1,364 @@
+.course-list-container{
+    width:75%
+}
+
+.course-container{
+    margin-bottom: 25px;
+    display: flex;
+}
+
+.cart-header-container{
+    /* margin-top: 10px; */
+}
+
+.discover-container{
+    color: white;
+    height: 111px;
+    border-radius: 4px;
+    background: #0F1317 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px
+}
+
+.react-logo{
+    height:100px;
+}
+
+.text-container{
+    padding-left: 15px;
+}
+
+.card-body{
+    justify-content: space-between;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #F4F4F4;
+    border-radius: 0px 0px 4px 4px;
+    height: 100px;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.image-alt{
+    display: inline-block;
+    margin-left: 10px;
+    width: 79px;
+    height: 70px;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+}
+
+.course-name{
+    width: 35%;
+    text-align: left;
+    color: #080808;
+    letter-spacing: 0px;
+    margin-left: 10px;
+    font: normal normal 600 15px/14px Montserrat;
+}
+
+.view{
+    width: 50px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.pageination-container{
+    margin-top: 25px;
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+}
+
+.currentPage{
+    width: 24px;
+    background: #E25B32;
+    text-align: center;
+    align-items: center;
+    border-radius: 15px;
+    color: white;
+    position: relative;
+    height: 24px;
+    display: inline-grid;
+}
+
+.pagenumbers{
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.btn{
+    width: fit-content;
+    border-radius: 4px;
+    color: white;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.btn.tags{
+    font-size: 10px;
+    padding: 5px;
+    margin-top: 3px;
+    background: #E25B32;
+    font-weight:400;
+}
+
+.btn.tags.custom{
+    color: #080808;
+    background: #fff
+}
+
+.btn.add-cart{
+    padding: 6px;
+    text-transform: uppercase;
+    background: #FF6738 0% 0% no-repeat padding-box;
+}
+
+.btn.cus-addcart{
+    padding: 6px;
+    text-transform: uppercase;
+    background: #FF6738 0% 0% no-repeat padding-box;
+    width: 140px;
+    text-align: center;
+}
+
+.btn.accept{
+    padding: 6px;
+    text-transform: uppercase;
+    background: #FF6738 0% 0% no-repeat padding-box;
+    width: 140px;
+    text-align: center;
+}
+
+.tag-container{
+    /* margin-top: 8px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.strikethrough{
+    color: gray;
+    text-decoration: line-through;
+    letter-spacing: 0px;
+}
+
+.price{
+    font-weight: 700;
+    text-align: center;
+    width:15%;
+}
+
+.imageholder{
+    width:10%
+}
+
+.author{
+    width:15%;
+    text-align: center;
+    font: normal normal 300 15px/19px Montserrat;
+}
+
+.wishListIcon{
+    width:5%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.cart-btn{
+    width:20%;
+    text-align: center;
+}
+
+.view{
+    width:10%;
+}
+
+.actual-price{
+    width:10%;
+    text-align: center;
+}
+
+.cart-outer-container{
+    width:25%;
+}
+
+.cart-item-header{
+    text-align: center;
+    height: 75px;
+    margin-top: 20px;
+    display: grid;
+    justify-content: start;
+    align-items: end;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.cart-item-header::after{
+    background: #00000029;
+    content: "";
+    height: 1px;
+    width: 250px;
+    position: relative;
+    top: 0px;
+    left: 15px;
+}
+
+.cart-items-container{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    margin-left: 10px;
+}
+
+.cart-items-holder{
+    flex-direction: column;
+    overflow: auto;
+}
+
+.cart-body{
+    margin: 0;
+    border-radius: 0px;
+    /* height:90px; */
+}
+
+.small{
+    height:50px;
+    width:50px;
+    margin-top: 13px;
+}
+
+.cart-course{
+    padding:10px;
+    font: normal normal 600 15px/14px Montserrat;
+}
+
+.cart-text{
+    margin: 10px 0px 0px 15px;
+    display: inline-block;
+}
+
+.cart-value-container{
+    height: 60px;
+}
+
+.cart-value-container::before{
+    background: #00000029;
+    content: "";
+    height: 1px;
+    width: 250px;
+    position: relative;
+    top: 0px;
+    left: 15px;
+    display:block;
+}
+.search-icon{
+    height: 20px;
+    position: relative;
+    top: 4px;
+    width: 25px
+}
+
+  .w-50{
+      width:50%;
+  }
+
+  .checkout-text{
+    display: flex;
+    place-items: center;
+    color: #FF6738;
+    text-decoration: none;
+  }
+
+  .cart-amount{
+    text-align: end;
+    padding-right: 20px;
+    font-weight: bold;
+  }
+
+  .no-items{
+    color: #AAAAAA;
+    text-align: left;
+    font: italic normal medium 16px/19px Montserrat;
+    padding: 20px;
+  }
+
+
+  .searchform div {
+    height: 26px;
+    width: 193px;
+    }
+    
+    .searchboxwrapper {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    }
+    
+    .searchbox {
+    border: 1px solid #dadada;
+    outline: none;
+    font: 11px 'Montserrat', sans-serif;
+    color: #777;
+    width: 240px;
+    height: 26px;
+    background: #fff;
+    padding-left: 10px;
+    }
+    
+    .searchsubmit {
+    font-family: 'FontAwesome';
+    width: 29px;
+    height: 29px;
+    border: 1px solid #dadada;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    background: #FF6738;
+    border: none;
+    color: #5d3250;
+    cursor: hand; cursor: pointer;
+    }
+
+.f-right{
+    float: right;
+}
+
+.orderby{
+    float: right;
+    padding: 3px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-top: 10px;
+    -webkit-user-select: none;
+}
+
+.orderby-icon{
+    position: relative;
+    top: 2px;
+}
+
+.order-options-container{
+    position: absolute;
+    top: 38px;
+    right: 0;
+    background: white;
+    width: 125px;
+    box-shadow: 0px 3px 6px #00000029;
+    display:none;
+}
+
+.order-options-container > div:first-child{
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+
+.order-options{
+    padding: 10px;
+    font-size: 15px;
+}
+
+.order-options-container.show{
+    display:block;
+}

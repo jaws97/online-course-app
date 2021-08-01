@@ -1,0 +1,68 @@
+.width-container{
+    background: #0F1317;
+    padding: 20px;
+    color: white;
+}
+
+.bread-crumbs-container{
+    padding:20px;
+}
+
+.course-details-container{
+    width:70%;
+    border: 1px solid #E0E0E0;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.video-outer-container{
+    position: relative;
+    height: 400px;
+    /* background: black; */
+    /* z-index: 999; */
+    bottom: 150px;
+    width: 350px;
+    margin-left: 15px;
+    /* border: 1px solid #E0E0E0; */
+}
+
+.video-container{
+    height: 200px;
+    background: black;
+    border: 1px solid #E0E0E0;
+    display: flex;
+}
+
+.timer{
+    height: 16px;
+    position: relative;
+    top: 3px;
+}
+
+.orange{
+    color: #D13030;
+}
+
+.wishlistdiv{
+    padding: 5px;
+    border: 1px solid #D13030;
+    width: 130px;
+    text-align: center;
+}
+
+.course-pricing{
+    border: 1px solid #E0E0E0;
+}
+
+.bread-crumbs-container a{
+    color: rgb(15, 19, 23);
+    text-decoration: none;
+}
+
+.wishicon{
+    height: 18px;
+    width: 20px;
+    position: relative;
+    top: 3px;
+    margin-left: 5px;
+}
