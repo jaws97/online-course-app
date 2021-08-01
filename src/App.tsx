@@ -55,10 +55,13 @@ function App() {
 
   const updateWishList = (cid:string,origin ?:string)=>{
       console.log(cid)
+      console.log(origin,"origin")
       let tempCourses =  [...completeCourseList];;
       if(origin === "courses"){
+        console.log("Inside here")
         tempCourses = [...courseList];
       }
+      console.log(tempCourses)
       // let coursesInrendered = [...courseList];
       // let coursesInTotal = [...completeCourseList];
       // coursesInrendered.find(course=> cid===course.cid)!.isWishlisted = !(coursesInrendered.find(course=> cid===course.cid)!.isWishlisted);
@@ -181,6 +184,11 @@ function App() {
     if(location.pathname === "/courses"){
       setCompleteCourseList(courseData)
       setCourseList(courseData.slice(0,4))
+    }
+
+    if(location.pathname === "/cart"){
+      setCompleteCourseList(courseData)
+      setCourseList(courseData.filter((course)=> course.isAddedInCart))
     }
 
     console.log(courseList)
