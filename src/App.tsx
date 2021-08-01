@@ -191,7 +191,10 @@ function App() {
       setCourseList(courseData.filter((course)=> course.isAddedInCart))
     }
 
-    console.log(courseList)
+    if(location.pathname === "/cart"){
+      setCompleteCourseList(courseData)
+      setCourseList(courseData.filter((course)=> course.isAddedInCart))
+    }
 
   }, [location])
 
